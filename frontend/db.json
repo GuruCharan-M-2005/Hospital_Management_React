@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "628b",
+      "name": "hiii",
+      "email": "guru@gmail.com",
+      "password": "guru"
+    }
+  ],
+  "appointments": [],
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "address": "123 Main St",
+      "mobileNumber": "123-456-7890",
+      "age": 30,
+      "gender": "Male",
+      "medicalHistory": "No known allergies."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "address": "456 Elm St",
+      "mobileNumber": "987-654-3210",
+      "age": 28,
+      "gender": "Female",
+      "medicalHistory": "Asthma."
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Alice Johnson",
+      "specialty": "Cardiology",
+      "experience": "10 years",
+      "contact": "555-1234"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Bob Brown",
+      "specialty": "Dermatology",
+      "experience": "8 years",
+      "contact": "555-5678"
+    }
+  ]
+}

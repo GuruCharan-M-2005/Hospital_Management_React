@@ -1,0 +1,46 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between; /* Space between the sidebar and chart grid */
+    align-items: flex-start; /* Align items at the start */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  .sidebar {
+    width: 250px; /* Set a fixed width for the sidebar */
+    background-color: #f4f4f4; /* Light background for the sidebar */
+    padding: 20px; /* Add padding inside the sidebar */
+    border-radius: 8px; /* Rounded corners for the sidebar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .chart-grid {
+    flex: 1; /* Allow the chart grid to take up available space */
+    margin: 0 20px; /* Add space between the grid and sidebars */
+    margin-left: 350px;
+  }
+  
+  .statistics {
+    width: 250px; /* Set a fixed width for the statistics section */
+    background-color: #f4f4f4; /* Light background for the statistics */
+    padding: 20px; /* Add padding inside the statistics */
+    border-radius: 8px; /* Rounded corners for the statistics */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .statistics h3 {
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .statistics ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .statistics li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .statistics span {
+    display: inline-block; /* Make spans inline-block for better alignment */
+    margin-right: 10px; /* Space between label and value */
+  }
